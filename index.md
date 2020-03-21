@@ -1,2 +1,2 @@
-## Welcome to My GitHub Pages
+## Dave's articles
 
