@@ -1,2 +1,2 @@
-## Dave's articles
+## Articles
 
