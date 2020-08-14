@@ -8,7 +8,6 @@ comments: true
 
 在本文写作时间内，构建单链表的操作依然没有搞定。不过过程中也收获了许多知识点，很多可以说是完全新鲜的概念。记录在本文内。
 
-
 构建一个静态的单链表比较简单，但其中也涉及一些基础问题：空引用，递归定义等等。
 
 ## 空引用
@@ -65,4 +64,21 @@ struct Node {
 }
 ```
 
-因为这样的话，该结构体占用空间未知，根据节点数量，可能是无穷大，
+因为这样的话，该结构体占用空间未知，根据节点数量，可能是无穷大。
+
+
+
+
+<br>
+<hr>
+
+<div id="disqus_thread"></div>
+<script>
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://straightdave-github-io.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
