@@ -19,10 +19,10 @@ mem::replace(cur, new_node); // 作为 mem::replace() 第一个参数，是另�
 ```
 最后不得已用一个计数器来，帮助将整个过程放在 `while let` 内部进行。如果是最末一个 `next`，就地操作 `next` 而非游标变量，因为游标变量值的所有权转移到内部这个 `next` 变量中。
 
-<details>
-    <summary>查看源码</summary>
-    <script src="https://gist.github.com/straightdave/186eb35c92b25e14fc6ce5fa8d68a250.js"></script>
-</detail>
+<br>
+完整代码 👇
+<br>
+<script src="https://gist.github.com/straightdave/186eb35c92b25e14fc6ce5fa8d68a250.js"></script>
 
 
 <br>
