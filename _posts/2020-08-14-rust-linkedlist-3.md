@@ -8,9 +8,10 @@ comments: true
 
 泪奔，终于写出一个版本。
 
-<script src="https://gist.github.com/straightdave/186eb35c92b25e14fc6ce5fa8d68a250.js"></script>
-
-
+<details>
+    <summary>查看 Gist</summary>
+    <script src="https://gist.github.com/straightdave/186eb35c92b25e14fc6ce5fa8d68a250.js"></script>
+</detail>
 
 
 <br>
