@@ -6,6 +6,8 @@ categories: rust
 comments: true
 ---
 
+<img src="/assets/img/haha_meme.jpg">
+
 泪奔，终于写出一个版本。
 
 这个版本遇到最大的问题是，用一个引用来遍历各个节点的 `next`，最终可以指向最后一个非空值节点的 `next` （该 `next` 指向链表最末的空值节点）。一开始使用只读引用，最后只能找到所需要的节点，但无法修改它。
