@@ -23,10 +23,10 @@ end
 ```elixir
 def hello(name, say_hi_loudly?) do
   if say_hi_loudly? do
-		"hello #{name} !!!!!"
-	else
-		"hello #{name}"
-	end
+    "hello #{name} !!!!!"
+  else
+    "hello #{name}"
+  end
 end
 ```
 
@@ -39,11 +39,11 @@ defmodule MyLib do
   @say_hi_loudly true
 
   def hello(name) do
-		if @say_hi_loudly do
-			"hello #{name} !!!!!"
-		else
-			"hello #{name}"
-		end
+    if @say_hi_loudly do
+      "hello #{name} !!!!!"
+    else
+      "hello #{name}"
+    end
   end
 end
 ```
@@ -68,9 +68,9 @@ end
 ```elixir
 defmodule MyLib do
   defmacro __using__(opts) do
-		loudly? = Keyword.get(opts, :loudly, false)
-		quote do
-			@say_hi_loudly unquote(loudly?)
+    loudly? = Keyword.get(opts, :loudly, false)
+    quote do
+      @say_hi_loudly unquote(loudly?)
     end
   end
 end
@@ -80,7 +80,7 @@ end
 
 ```elixir
 defmodule A do
-	use MyLib, say_hi_loudly: true
+  use MyLib, say_hi_loudly: true
 
   ...
 end
@@ -90,9 +90,9 @@ end
 
 ```elixir
 defmodule A do
-	@say_hi_loudly true
+  @say_hi_loudly true
 
-	...
+  ...
 end
 ```
 
@@ -102,9 +102,9 @@ end
 
 ```elixir
 def hello(name) do
-	# 感知宿主模块
-	# 读取宿主模块的属性 @say_hi_loudly
-	# 做出相应行为
+  # 感知宿主模块
+  # 读取宿主模块的属性 @say_hi_loudly
+  # 做出相应行为
 end
 ```
 
@@ -112,13 +112,13 @@ end
 
 ```elixir
 defmacro hello(name) do
-	caller_mod = __CALLER__.module
-	loudly? = Module.get_attributes(caller_mod, :say_hi_loudly)
-	if loudly? do
-		"hello #{name} !!!!!"
-	else
-		"hello #{name}"
-	end
+  caller_mod = __CALLER__.module
+  loudly? = Module.get_attributes(caller_mod, :say_hi_loudly)
+  if loudly? do
+    "hello #{name} !!!!!"
+  else
+    "hello #{name}"
+  end
 end
 ```
 
@@ -128,11 +128,11 @@ end
 
 ```elixir
 defmodule A do
-	use MyLib, say_hi_loudly: true
+  use MyLib, say_hi_loudly: true
 
-	def func do
-		MyLib.hello("world")
-	end
+  def func do
+    MyLib.hello("world")
+  end
 end
 ```
 
@@ -142,18 +142,18 @@ end
 
 ```elixir
 defmacro __using__(opts \\ []) do
-	loudly = Keyword.get(opts, :say_hi_loudly, false)
-	quote do
-		@say_hi_loudly unquote(loudly)
+  loudly = Keyword.get(opts, :say_hi_loudly, false)
+  quote do
+    @say_hi_loudly unquote(loudly)
 
-		def hello(name) do
-			if @say_hi_loudly do
-				"hello #{name} !!!!!"
-			else
-				"hello #{name}"
-			end
-		end
-	end
+    def hello(name) do
+      if @say_hi_loudly do
+        "hello #{name} !!!!!"
+      else
+        "hello #{name}"
+      end
+    end
+  end
 end
 ```
 
