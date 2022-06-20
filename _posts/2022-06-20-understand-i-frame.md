@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "一文带你了解 I-frame"
-date:   2022-02-05 12:10:10 +0800
+date:   2022-06-20 10:10:10 +0800
 categories: live streaming
 comments: true
 ---
@@ -61,21 +61,6 @@ Trick play，或称 trick mode，是描述早期录像带那种模拟信号视�
 
 ## 参考资料
 
-* HLS 协议：https://datatracker.ietf.org/doc/html/rfc8216
-* Trick play：https://en.wikipedia.org/wiki/Trick_mode
-* AWS 对 Trickplay 的介绍：https://www.youtube.com/watch?v=WKwDYVCIa6I
-
-
-<br>
-<hr>
-
-<div id="disqus_thread"></div>
-<script>
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://straightdave-github-io.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+* HLS 协议 [Link](https://datatracker.ietf.org/doc/html/rfc8216)
+* Trick play [Wiki](https://en.wikipedia.org/wiki/Trick_mode)
+* AWS 对 Trickplay 的介绍 [Youtube](https://www.youtube.com/watch?v=WKwDYVCIa6I)
