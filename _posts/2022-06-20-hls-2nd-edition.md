@@ -6,6 +6,8 @@ categories: live streaming
 comments: true
 ---
 
+<img src="/assets/img/rfc.jpeg">
+
 不知不觉，HLS 第二版的草案已经进入到第 11 个版本了（详见 [draft-pantos-hls-rfc8216bis-11](https://datatracker.ietf.org/doc/draft-pantos-hls-rfc8216bis/11/)，有效期到 2022 年 11 月 12 日）。
 第二版如果通过，将取代原 RFC8216 成为新的 HLS 协议文本，同时 RFC8216 将正式失效。
 不过，尽管已经走到了草案的第 11 个版本，但距正式发布应该还会有一段时间。
