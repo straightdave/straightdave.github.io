@@ -2,7 +2,7 @@
 layout: post
 title:  "引用和溯源"
 date:   2020-08-17 22:10:10 +0800
-categories: rust
+categories: Rust
 comments: true
 ---
 

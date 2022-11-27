@@ -2,7 +2,7 @@
 layout: post
 title:  "一文带你了解 I-frame"
 date:   2022-06-20 10:10:10 +0800
-categories: live streaming
+categories: Streaming
 comments: true
 ---
 

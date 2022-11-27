@@ -2,7 +2,7 @@
 layout: post
 title:  "Yuria's purple eyes"
 date:   2020-03-21 22:24:56 +0800
-categories: anime
+categories: Anime
 comments: true
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "HLS 第二版"
 date:   2022-06-20 12:10:10 +0800
-categories: live streaming
+categories: Streaming
 comments: true
 ---
 

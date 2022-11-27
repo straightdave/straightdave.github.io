@@ -2,7 +2,7 @@
 layout: post
 title:  "再见 Grab"
 date:   2020-09-18 12:10:10 +0800
-categories: life
+categories: Life
 comments: true
 ---
 

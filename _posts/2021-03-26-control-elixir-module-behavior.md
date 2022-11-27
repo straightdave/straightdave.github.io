@@ -2,7 +2,7 @@
 layout: post
 title:  "控制 Elixir 模块的行为"
 date:   2021-03-26 12:10:10 +0800
-categories: elixir
+categories: Elixir
 comments: true
 ---
 

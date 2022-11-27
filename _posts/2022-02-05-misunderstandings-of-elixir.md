@@ -2,7 +2,7 @@
 layout: post
 title:  "震惊！程序员对 Elixir 竟有这样的误解，背后细节令人揪心"
 date:   2022-02-05 12:10:10 +0800
-categories: elixir
+categories: Elixir
 comments: true
 ---
 
