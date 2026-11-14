@@ -1,0 +1,227 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+:root {
+  --bg-color: #ffffff;
+  --bg-secondary: #f6f8fa;
+  --text-color: #1f2328;
+  --text-muted: #656d76;
+  --border-color: #d0d7de;
+  --link-color: #0969da;
+  --link-visited: #8250df;
+  --code-bg: #f6f8fa;
+  --code-border: #e1e4e8;
+  --blockquote-color: #57606a;
+  --table-stripe: #f6f8fa;
+}
+
+[data-theme="dark"] {
+  --bg-color: #0d1117;
+  --bg-secondary: #161b22;
+  --text-color: #e6edf3;
+  --text-muted: #8b949e;
+  --border-color: #30363d;
+  --link-color: #58a6ff;
+  --link-visited: #bc8cff;
+  --code-bg: #161b22;
+  --code-border: #30363d;
+  --blockquote-color: #8b949e;
+  --table-stripe: #161b22;
+}
+
+html {
+  color-scheme: light dark;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  line-height: 1.7;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  transition: background-color 0.2s ease, color 0.2s ease;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrapper {
+  max-width: calc(820px - (30px * 2));
+}
+
+a {
+  color: var(--link-color);
+  &:visited {
+    color: var(--link-visited);
+  }
+}
+
+.site-header {
+  border-top: 4px solid var(--link-color);
+  border-bottom: 1px solid var(--border-color);
+  background-color: var(--bg-color);
+}
+
+.site-title,
+.site-title:visited {
+  color: var(--text-color);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.site-nav {
+  .page-link {
+    color: var(--text-color);
+  }
+  .menu-icon > svg {
+    fill: var(--text-color);
+  }
+  @include media-query($on-palm) {
+    background-color: var(--bg-color);
+    border-color: var(--border-color);
+  }
+}
+
+.theme-toggle {
+  background: transparent;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 2px 8px;
+  margin-left: 14px;
+  font-size: 14px;
+  line-height: 1.4;
+  vertical-align: middle;
+  color: var(--text-color);
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+
+  &:hover {
+    background-color: var(--bg-secondary);
+  }
+}
+
+.theme-icon-sun {
+  display: none;
+}
+.theme-icon-moon {
+  display: inline;
+}
+
+[data-theme="dark"] {
+  .theme-icon-sun {
+    display: inline;
+  }
+  .theme-icon-moon {
+    display: none;
+  }
+}
+
+.site-footer {
+  border-top: 1px solid var(--border-color);
+  color: var(--text-muted);
+}
+
+.footer-col-wrapper,
+.post-meta {
+  color: var(--text-muted);
+}
+
+.post-title {
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+}
+
+.post-list > li {
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border-color);
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.post-content {
+  h2, h3, h4 {
+    margin-top: 1.6em;
+    margin-bottom: 0.6em;
+    font-weight: 600;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin: 0.75em 0;
+  }
+}
+
+blockquote {
+  color: var(--blockquote-color);
+  border-left: 4px solid var(--border-color);
+}
+
+pre,
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.9em;
+  background-color: var(--code-bg);
+  border: 1px solid var(--code-border);
+  border-radius: 6px;
+}
+
+code {
+  padding: 2px 5px;
+}
+
+pre {
+  padding: 12px 16px;
+  overflow-x: auto;
+  line-height: 1.5;
+
+  > code {
+    border: 0;
+    padding: 0;
+    background: transparent;
+  }
+}
+
+.highlighter-rouge .highlight {
+  background: var(--code-bg);
+  border-radius: 6px;
+}
+
+table {
+  color: var(--text-color);
+  border-color: var(--border-color);
+
+  tr:nth-child(even) {
+    background-color: var(--table-stripe);
+  }
+  th {
+    background-color: var(--bg-secondary);
+    border-color: var(--border-color);
+  }
+  td {
+    border-color: var(--border-color);
+  }
+}
+
+/* Dark mode Rouge syntax highlighting */
+[data-theme="dark"] .highlight {
+  background: var(--code-bg);
+  color: #e6edf3;
+
+  .c, .cm, .c1, .cs { color: #8b949e; font-style: italic; }
+  .cp { color: #8b949e; font-weight: bold; }
+  .err { color: #f85149; background-color: transparent; }
+  .k, .kc, .kd, .kn, .kp, .kr, .kt { color: #ff7b72; }
+  .o, .ow { color: #ff7b72; }
+  .m, .mf, .mh, .mi, .mo, .il { color: #79c0ff; }
+  .s, .sb, .sc, .sd, .s2, .se, .sh, .si, .sx, .sr, .s1, .ss { color: #a5d6ff; }
+  .na, .nb, .nc, .no, .nd, .ni, .ne, .nf, .nl, .nn, .nt, .nv { color: #d2a8ff; }
+  .na, .nt { color: #7ee787; }
+  .nv, .vc, .vg, .vi { color: #79c0ff; }
+  .gd { color: #ffdcd7; background-color: #67060c; }
+  .gi { color: #aff5b4; background-color: #033a16; }
+  .gh, .gu { color: #79c0ff; font-weight: bold; }
+}
