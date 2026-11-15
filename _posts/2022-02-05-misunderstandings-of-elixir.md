@@ -4,6 +4,7 @@ title:  "震惊！程序员对 Elixir 竟有这样的误解，背后细节令人
 date:   2022-02-05 12:10:10 +0800
 categories: Elixir
 comments: true
+description: "辨析 Elixir 中“Let it crash”的常见误区：Supervisor 的 max_restarts 与 max_seconds 限制及生产环境防御思路。"
 ---
 
 # Let it crash？

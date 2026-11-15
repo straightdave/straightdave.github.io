@@ -4,6 +4,8 @@ title:  "铁锈写个单链表都是地狱级硬核操作（三）"
 date:   2020-08-14 12:10:56 +0800
 categories: Rust
 comments: true
+description: "终于写出 Rust 单链表版本！复盘遍历节点时的可写借用冲突与 mem::replace 所有权转移技巧。"
+image: /assets/img/haha_meme.jpg
 ---
 
 <img src="/assets/img/haha_meme.jpg">

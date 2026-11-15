@@ -4,6 +4,7 @@ title:  "SGAI 广告决策模式思考：客户端只声明能力，把决策权
 date:   2026-11-14 16:18:00 -0800
 categories: Streaming
 comments: true
+description: "探讨 SGAI 广告决策的三层职责划分：Manifest 描述机会、客户端声明能力、服务端统一决策，并对照工业界真实实践。"
 ---
 
 在基于 **HLS Interstitials（`#EXT-X-DATERANGE`）** 构建 **SGAI（Server-Guided Ad Insertion，服务端引导广告插入）** 系统时，一个核心的架构问题是：**“到底该由谁来决定某个广告位播放什么形态的广告？”**

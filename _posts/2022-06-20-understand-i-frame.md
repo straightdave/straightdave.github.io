@@ -4,6 +4,8 @@ title:  "一文带你了解 I-frame"
 date:   2022-06-20 10:10:10 +0800
 categories: Streaming
 comments: true
+description: "全面解析 HLS 中的 I-frame（关键帧）流定义、EXT-X-I-FRAME-ONLY 标签、Trick Play 快进预览原理与 fMP4 实现。"
+image: /assets/img/i-frame.png
 ---
 
 ## I-frame 是什么

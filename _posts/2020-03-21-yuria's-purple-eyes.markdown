@@ -4,6 +4,7 @@ title:  "Yuria's purple eyes"
 date:   2020-03-21 22:24:56 +0800
 categories: Anime
 comments: true
+description: "Reflections on Hokuto no Ken (Fist of the North Star) as an adult—beyond childhood heroics, Yuria and Kenshiro embody humanity's enduring hope."
 ---
 
 Many years ago when I was a kid I totally didn't understand _Hokudo No Ken_ (北斗の拳，北斗神拳, Fist of the North Stars). All I knew (and was so happy for) was songs and hero stories. All kids love invincible heros and who better have some tragical old stories, such like happy life is broken by villains so forth.

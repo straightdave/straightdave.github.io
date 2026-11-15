@@ -4,6 +4,8 @@ title:  "HLS 第二版"
 date:   2022-06-20 12:10:10 +0800
 categories: Streaming
 comments: true
+description: "梳理 HLS 协议初版（RFC8216）到第二版（rfc8216bis）草案的演进历程，以及各草案版本与 EXT-X-VERSION 的对应关系。"
+image: /assets/img/rfc.jpeg
 ---
 
 <img src="/assets/img/rfc.jpeg">

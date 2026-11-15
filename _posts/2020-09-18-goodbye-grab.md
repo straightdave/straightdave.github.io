@@ -4,6 +4,8 @@ title:  "再见 Grab"
 date:   2020-09-18 12:10:10 +0800
 categories: Life
 comments: true
+description: "告别待了三年多的 Grab：回顾在新加坡的成长与收获，聊聊自己的“人生体验派”信条与下一段未知旅途。"
+image: /assets/img/歪嘴龙王.jpeg
 ---
 
 * “三年之期已到，这 Grab，不待也罢！”

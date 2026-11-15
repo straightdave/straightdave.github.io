@@ -4,6 +4,7 @@ title:  "Linear (Live) Streaming Interstitials in SGAI"
 date:   2026-11-14 14:23:00 -0800
 categories: Streaming
 comments: true
+description: "Design choices for bringing HLS Interstitials to linear live streams in SGAI: sliding windows, DATERANGE anchoring, live-edge resume, and audio-aware muting."
 ---
 
 ## Overview

@@ -4,6 +4,7 @@ title:  "控制 Elixir 模块的行为"
 date:   2021-03-26 12:10:10 +0800
 categories: Elixir
 comments: true
+description: "探讨如何在 Elixir 中通过 __using__ 宏注入模块属性与 __CALLER__ 上下文，灵活控制模块在不同宿主中的行为。"
 ---
 
 模块（Module）是 Elixir 的代码复用单元。一个简单的例子：

@@ -4,6 +4,8 @@ title:  "引用和溯源"
 date:   2020-08-17 22:10:10 +0800
 categories: Rust
 comments: true
+description: "深入理解 Rust 引用（&T 与 &mut T）的底层数据结构、栈上内存布局，以及只读引用实现 Copy 而可写引用转移所有权的原因。"
+image: /assets/img/rust-reference.png
 ---
 
 * [引用是一种数据结构](#引用是一种数据结构)

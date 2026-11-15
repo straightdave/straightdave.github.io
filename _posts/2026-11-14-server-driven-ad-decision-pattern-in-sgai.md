@@ -4,6 +4,7 @@ title:  "Server-Driven Ad Decision Pattern in SGAI"
 date:   2026-11-14 14:20:00 -0800
 categories: Streaming
 comments: true
+description: "A server-driven ad decision pattern for SGAI with HLS Interstitials: neutral manifests, stateless capability-declaring players, and centralized server logic."
 ---
 
 ## Overview
