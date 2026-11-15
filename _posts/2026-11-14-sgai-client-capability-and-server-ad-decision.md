@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "SGAI 广告决策模式思考：客户端只声明能力，把决策权交给后端"
-date:   2026-11-14 16:20:00 -0800
+date:   2026-11-14 16:18:00 -0800
 categories: Streaming
 comments: true
 ---
